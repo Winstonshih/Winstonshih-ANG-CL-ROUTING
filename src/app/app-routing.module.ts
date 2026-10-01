@@ -23,7 +23,7 @@ import { ProfileComponent } from './components/profile/profile.component';
 export const routes: Routes = [
   {path: 'feed', component: FeedComponent},
   {path: 'search', component: SearchComponent},
-  //add the 'profile' route
+  {path: 'profile', component: ProfileComponent},
   {path: '**', component: HomeComponent},
 ];
 
